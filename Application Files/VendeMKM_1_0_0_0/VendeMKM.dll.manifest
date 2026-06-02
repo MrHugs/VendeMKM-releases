@@ -3200,7 +3200,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>GEpWj/677Yybrl/qj1necMExWRI+784x9BXg4WGr1S4=</dsig:DigestValue>
+      <dsig:DigestValue>vlfdmSxt99TpUnkScTk4jw7EKA7NVLlzCU7T9tgzbLE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="VendeMKM.exe" size="151552">
