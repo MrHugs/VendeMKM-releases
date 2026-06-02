@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
   <asmv1:assemblyIdentity name="VendeMKM.exe" version="1.0.2.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="..\magic_card_euro_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -53,6 +54,15 @@
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="..\magic_card_euro_icon.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qNlS0m6pwZhZ8pgrzWp8tNX4BrPdUJdSdwwcuuRQ3h0=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name=".playwright\node\LICENSE" size="139053">
     <hash>
       <dsig:Transforms>
@@ -3194,22 +3204,22 @@
       <dsig:DigestValue>Jt/zdz6y9nj13hfkl858Y2QkIn2cZC31BXCunEN8pOc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="VendeMKM.dll" size="175104">
+  <file name="VendeMKM.dll" size="179712">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>QLonib/86NgU/Thd8t9SWe1ux5plehVa5/XtFTokRic=</dsig:DigestValue>
+      <dsig:DigestValue>VsBudKpYe0UIxkFmaxjwl4tdIdVkaq0vU93G4PA8bsw=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="VendeMKM.exe" size="151552">
+  <file name="VendeMKM.exe" size="156160">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>d6cPFVFm2wCWcOopfrmyt/12HD1GrDjpiEBWN7IGkfQ=</dsig:DigestValue>
+      <dsig:DigestValue>rmQWLULeq9z86kS3ov3UkUbG/Aq8UMX2t/n3U3jLMkU=</dsig:DigestValue>
     </hash>
   </file>
   <file name="VendeMKM.runtimeconfig.json" size="458">
